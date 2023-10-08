@@ -1,0 +1,34 @@
+%Tabelke umiescic w osobnym pliku
+%\input{Tabelka.txt}
+\begin{center}
+\begin{tabular}{|l|l|l|c|c|c|}\hline
+Wydział \\ \textbf{Wydział Informatyki}&\multicolumn{2}{l|}{\begin{tabular}{@{}l@{}}
+Imię i nazwisko:\\
+1. \textbf{Kawa Michał}\\
+2. \textbf{Smyda Tomasz}\\
+\end{tabular}}&
+\begin{tabular}{@{}c@{}}Rok:\\\textbf{II}\\\end{tabular}&
+\begin{tabular}{@{}c@{}}Grupa:\\\textbf{5}\\\end{tabular}&
+\begin{tabular}{@{}c@{}}Zespół:\\\textbf{3}\\\end{tabular}\\\hline
+\begin{tabular}{@{}p{2.5cm}@{}}
+\textbf{PRACOWNIA FIZYCZNA WFiIS AGH}\\\end{tabular}&\multicolumn{4}{l|}{
+\begin{tabular}{@{}l@{}}Temat:\\ \textbf{Ćwiczenie zerowe} \\\end{tabular}}&
+\begin{tabular}{@{}c@{}}Nr ćwiczenia:\\\textbf{0}\\\end{tabular}\\\hline
+Data wykonania:&
+\footnotesize{Data oddania:}&
+\footnotesize{Zwrot do popr.:}&
+\footnotesize{Data oddania:}&
+\footnotesize{Data zaliczenia:}&
+OCENA:\\
+
+\textbf{08-10-2023}& %Data wykonania
+\textbf{09-10-2023}& %Data oddania
+& %Zwrot do poprawy
+& %Data oddania
+& %Data zaliczenia
+\\ %ocena
+
+\hline
+\end{tabular}
+\end{center}
+%Koniec tabelki
