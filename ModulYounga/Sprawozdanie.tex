@@ -1,0 +1,62 @@
+\documentclass[a4paper,11pt]{article} 
+\usepackage{fancyhdr}
+\usepackage{polski}
+\usepackage{graphicx}
+\usepackage[left=2.5cm,top=2.5cm,right=2.5cm,bottom=4.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{indentfirst}
+\usepackage{lipsum}
+\usepackage[export]{adjustbox}
+\usepackage[font=small,labelfont=bf]{caption} 
+\usepackage{booktabs}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{1pt} 
+\fancyhead[R]{\includegraphics[height=80pt]{log.png}
+}
+\lhead{Akademia Górniczo-Hutnicza \\ im. Stanisława Staszica w Krakowie\\  Wydział Informatyki }
+\setlength{\headheight}{80pt}
+
+\cfoot{}
+\rfoot{\thepage} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%DADOS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%\maketitle
+
+%Tabelke umiescic w osobnym pliku
+\input{table.txt}
+
+\section{Cel ćwiczenia}
+
+Celem ćwiczenia było
+
+\section{Potrzebne przyrządy}
+
+
+\section{Wykonywanie ćwiczenia}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+Numer pomiaru & Czas 10 okresów {[}s{]} & Okres T {[}s{]} \\ \hline
+1.            & 8,62                    & 0,862                 \\ \hline
+2.            & 8,59                    & 0,859                 \\ \hline
+3.            & 9,01                    & 0,901                 \\ \hline
+4.            & 8,44                    & 0,844                 \\ \hline
+5.            & 8,53                    & 0,853                 \\ \hline
+6.            & 8,50                    & 0,850                 \\ \hline
+7.            & 8,76                    & 0,876                 \\ \hline
+8.            & 8,51                    & 0,851                 \\ \hline
+9.            & 8,57                    & 0,857                 \\ \hline
+10.           & 8,71                    & 0,871                 \\ \hline
+\end{tabular}
+\end{table}
+
+
+\end{document}
