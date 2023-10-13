@@ -1,0 +1,23 @@
+Na podstawie trzech wykonanych pomiarów ustaliliśmy średnicę drutu stalowego oraz oszacowaliśmy niepewność typu B:
+$$d_s = 0{,}77\, \textrm{mm}$$
+$$u(d_s) = \frac{0{,}01\, \textrm{mm}}{\sqrt{3}} = 0{,}006\, \textrm{mm} $$
+
+Analogicznie dla drutu mosiężnego:
+
+$$d_m = 0{,}79\, \textrm{mm} $$
+$$u(d_m) = \frac{0{,}01\, \textrm{mm}}{\sqrt{3}} = 0{,}006\, \textrm{mm} $$
+
+Wobec czego otrzymaliśmy:
+
+$$d_s = 0{,}77\pm 0{,}006\, \textrm{mm}$$
+$$d_m = 0{,}79\pm 0{,}006\, \textrm{mm}$$
+
+Następnie nanieśliśmy wyniki dokonanych pomiarów na wykresy, a następnie dopasowaliśmy prostą przy pomocy regresji liniowej metodą najmniejszych kwadratów w programie MS Excel.
+
+%Tutaj dwa wykresy
+
+W celu obliczenia modułu Younga posłużymy się wzorem roboczym:
+$$E = \frac{4\cdot l}{\pi \cdot d^2 \cdot a}$$
+Dla stali: $l = 
+
+\subsection

@@ -1,0 +1,9 @@
+\begin{center}
+  \begin{tabular}{| c | c | c | c | c | c |}
+    \hline
+    \textbf{Numer pomiaru} & \textbf{Masa odważników} & \textbf{Siła} $\mathbf{F}$ & \textbf{Wskazanie $\pmb{\uparrow}$} & \textbf{Wskazanie $\pmb{\downarrow}$}  & \textbf{Wydłużenie średnie $\Delta l$}\\ 
+     & $\left[\textrm{kg}\right]$ & $ \left[ N \right] $ & $ \left[ mm \right] $ & $ \left[ mm \right] $ & $ \left[ mm \right] $\\ \hline
+    1. & 7 & 8 & 9 & 6 & 5 \\
+    \hline
+  \end{tabular}
+\end{center}

@@ -1,0 +1,17 @@
+\subsection{Cel ćwiczenia}
+Celem doświadczenia jest wyznaczenie modułu Younga metodą statyczną za pomocą pomiaru wydłużenia drutu z badanego metalu obciążonego stałą siłą.
+
+\subsection{Opis ćwiczenia}
+W doświadczeniu oprzemy się na równaniu prawa Hook’a, mówiącemu o proporcjonalności odkształcenia sprężystego do przyłożonej siły:
+$$\Delta l = \frac{F \cdot l}{E \cdot S}$$
+
+Wartość $E$ to stała materiałowa - mierzony przez nas moduł Younga.
+
+Prawo Hook'a można również zapisać jako: $\sigma = E \cdot \varepsilon$, gdzie $\sigma$ to naprężenie normalne ($\sigma = \frac{F}{S}$), a $\varepsilon$ to normalne odkształcenie względne ($\varepsilon = \frac{\Delta l}{l} $).
+
+Zgodnie z prawem Hooke'a zależność $\Delta l (F)$ powinna być prostą $\Delta l = a \cdot F + b$, zatem współcznynnik $a = \frac{l}{E \cdot S}$. Z tego otrzymujemy:
+$$E = \frac{l}{a \cdot S} = \frac{4l}{\pi \cdot d^2 \cdot a} $$
+
+Niepewność złożoną $u_c(E)$ otrzymujemy:
+$$ \frac{u_c(E)}{E} = \sqrt{\left( \frac{u(l)}{l} \right)^2 + \left( -2 \cdot \frac{u(d)}{d} \right)^2 + \left( -\frac{u(a)}{a} \right)^2} $$
+\newpage
