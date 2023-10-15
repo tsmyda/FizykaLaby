@@ -1,0 +1,1 @@
+Wyznaczone wartości modułu Younga dla obu materiałów różnią się znacznie od wartości oczekiwanej, może to wynikać z faktu, że druty użyte do ćwiczeń po wielokrotnym używaniu nie odzwierciedlają parametrów dla nowego drutu. Na wykresie możemy zaobserwować podobne zachowanie, gdyż dla małych obciążeń nie wydłużają się liniowo.

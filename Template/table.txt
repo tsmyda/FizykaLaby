@@ -4,7 +4,6 @@
 %\input{Tabelka.txt}
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c|}\hline
-Wydział: \\ 
 \textbf{Wydział \Wydzial}&\multicolumn{2}{l|}{\begin{tabular}{@{}l@{}}
 Imię i nazwisko:\\
 1. \textbf{\PierwszyAutor}\\
