@@ -1,19 +1,21 @@
+\input{variables.txt}
+
 %Tabelke umiescic w osobnym pliku
 %\input{Tabelka.txt}
 \begin{center}
-\begin{tabular}{|l|l|l|c|c|c|}\hline
-Wydział \\ \textbf{Wydział Informatyki}&\multicolumn{2}{l|}{\begin{tabular}{@{}l@{}}
+\begin{tabular}{|c|c|c|c|c|c|}\hline
+\textbf{Wydział \Wydzial}&\multicolumn{2}{l|}{\begin{tabular}{@{}l@{}}
 Imię i nazwisko:\\
-1. \textbf{Kawa Michał}\\
-2. \textbf{Smyda Tomasz}\\
+1. \textbf{\PierwszyAutor}\\
+2. \textbf{\DrugiAutor}\\
 \end{tabular}}&
-\begin{tabular}{@{}c@{}}Rok:\\\textbf{II}\\\end{tabular}&
-\begin{tabular}{@{}c@{}}Grupa:\\\textbf{5}\\\end{tabular}&
-\begin{tabular}{@{}c@{}}Zespół:\\\textbf{3}\\\end{tabular}\\\hline
+\begin{tabular}{@{}c@{}}Rok:\\\textbf{\Rok}\\\end{tabular}&
+\begin{tabular}{@{}c@{}}Grupa:\\\textbf{\Grupa}\\\end{tabular}&
+\begin{tabular}{@{}c@{}}Zespół:\\\textbf{\NrZespolu}\\\end{tabular}\\\hline
 \begin{tabular}{@{}p{2.5cm}@{}}
 \textbf{PRACOWNIA FIZYCZNA WFiIS AGH}\\\end{tabular}&\multicolumn{4}{l|}{
-\begin{tabular}{@{}l@{}}Temat:\\ \textbf{Moduł Younga} \\\end{tabular}}&
-\begin{tabular}{@{}c@{}}Nr ćwiczenia:\\\textbf{11}\\\end{tabular}\\\hline
+\begin{tabular}{@{}l@{}}Temat:\\\textbf{\Temat}\\\end{tabular}}&
+\begin{tabular}{@{}c@{}}Nr ćwiczenia:\\\textbf{\NrCwiczenia}\\\end{tabular}\\\hline
 Data wykonania:&
 \footnotesize{Data oddania:}&
 \footnotesize{Zwrot do popr.:}&
@@ -21,8 +23,8 @@ Data wykonania:&
 \footnotesize{Data zaliczenia:}&
 OCENA:\\
 
-\textbf{08-10-2023}& %Data wykonania
-\textbf{09-10-2023}& %Data oddania
+\textbf{\DataWykonania}& %Data wykonania
+\textbf{\DataOddania}& %Data oddania
 & %Zwrot do poprawy
 & %Data oddania
 & %Data zaliczenia

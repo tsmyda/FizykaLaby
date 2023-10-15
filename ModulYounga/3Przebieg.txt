@@ -1,0 +1,9 @@
+Na samym początku dokonaliśmy pomiaru długości pręta wykonanego ze stali oraz za pomocą śruby mikrometrycznej zmierzyliśmy średnicę drutu wykonując trzy pomiary w różnych miejsach drutu. Następnie wyzerowaliśmy czujnik mikrometryczny i rozpoczęliśmy właściwe pomiary.
+
+\vspace{0.3cm}
+
+Badaliśmy odległość za pomocą czujnika mikrometrycznego obciążając szalkę za pomocą coraz większych odważników zaczynając od 0 kg, a kończąc na 10 kg ze skokiem 1 kg, a następnie zmniejszaliśmy obciążenie na szalce również co 1 kg aż do 0.
+
+\vspace{0.3cm}
+
+Taką samą procedurę pomiarów dokonaliśmy dla drutu mosiężnego. Jedyną różnicą było maksymalne obciążenie, do którego użyliśmy obciążników o łącznej wadze 6 kg - wynika to z mniejszej wytrzymałości drutu.
