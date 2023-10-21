@@ -1,0 +1,36 @@
+\input{variables.txt}
+
+%Tabelke umiescic w osobnym pliku
+%\input{Tabelka.txt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}\hline
+\textbf{Wydział \Wydzial}&\multicolumn{2}{l|}{\begin{tabular}{@{}l@{}}
+Imię i nazwisko:\\
+1. \textbf{\PierwszyAutor}\\
+2. \textbf{\DrugiAutor}\\
+\end{tabular}}&
+\begin{tabular}{@{}c@{}}Rok:\\\textbf{\Rok}\\\end{tabular}&
+\begin{tabular}{@{}c@{}}Grupa:\\\textbf{\Grupa}\\\end{tabular}&
+\begin{tabular}{@{}c@{}}Zespół:\\\textbf{\NrZespolu}\\\end{tabular}\\\hline
+\begin{tabular}{@{}p{2.5cm}@{}}
+\textbf{PRACOWNIA FIZYCZNA WFiIS AGH}\\\end{tabular}&\multicolumn{4}{l|}{
+\begin{tabular}{@{}l@{}}Temat:\\\textbf{\Temat}\\\end{tabular}}&
+\begin{tabular}{@{}c@{}}Nr ćwiczenia:\\\textbf{\NrCwiczenia}\\\end{tabular}\\\hline
+Data wykonania:&
+\footnotesize{Data oddania:}&
+\footnotesize{Zwrot do popr.:}&
+\footnotesize{Data oddania:}&
+\footnotesize{Data zaliczenia:}&
+OCENA:\\
+
+\textbf{\DataWykonania}& %Data wykonania
+\textbf{\DataOddania}& %Data oddania
+& %Zwrot do poprawy
+& %Data oddania
+& %Data zaliczenia
+\\ %ocena
+
+\hline
+\end{tabular}
+\end{center}
+%Koniec tabelki
