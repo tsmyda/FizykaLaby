@@ -1,0 +1,60 @@
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+        \textbf{Lp.} & \textbf{$x$} & \textbf{$V_a$} & \textbf{$V_b$} & \textbf{$V_c$} & $V_{\textrm{\it{\footnotesize{dośw.}}}}$ \\ 
+		 & [mm] & [V] & [V] & [V] & [V] \\ \hline
+        \textbf{1.} & 10 & 2,07 & 2,38 & 2,17 & 2,21   \\ \hline
+        \textbf{2.} & 20 & 3,09 & 3,38 & 3,33 & 3,27  \\ \hline
+        \textbf{3.} & 30 & 4,20 & 4,51 & 4,48 & 4,40  \\ \hline
+        \textbf{4.} & 40 & 5,20 & 5,47 & 5,56 & 5,41 \\ \hline
+        \textbf{5.} & 50 & 6,27 & 6,62 & 6,54 & 6,48 \\ \hline
+        \textbf{6.} & 60 & 7,35 & 7,73 & 7,51 & 7,53 \\ \hline
+    \end{tabular}
+	\caption{Wyniki pomiarów dla wnętrza kondensatora płaskiego}
+\end{table}
+
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{| >{\columncolor{yellow}}c|>{\columncolor{yellow}}c|>{\columncolor{yellow}}c|c|c|c|c|c|c|c|c|c|c|}
+
+        7,33 & 7,59 & 8,17 &\multicolumn{10}{l}{} \\
+        7,15 & 7,51 & 7,98 &\multicolumn{10}{l}{} \\
+        6,79 & 7,06 & 7,59 &\multicolumn{10}{c}{górna okładka kondensatora} \\ \hline
+        6,38 & 6,68 & 7,05 & \cellcolor{black} & \cellcolor{black} & \cellcolor{black}  &\cellcolor{black}  &\cellcolor{black}  & \cellcolor{black} & \cellcolor{black} & \cellcolor{black} &\cellcolor{black}  &  \cellcolor{black} \\ \hline
+        5,87 & 6,11 & 6,32 & \cellcolor{yellow} 6,43 & $\cdot$ & $\cdot$ & \cellcolor{green} 7,35 & $\cdot$ & $\cdot$ & \cellcolor{green} 7,73 & $\cdot$ & $\cdot$ & \cellcolor{green} 7,51  \\ \hline
+        5,36 & 5,48 & 5,55 & \cellcolor{yellow} 5,70 & $\cdot$ & $\cdot$ & \cellcolor{green} 6,27 & $\cdot$ & $\cdot$ & \cellcolor{green} 6,62 & $\cdot$ & $\cdot$ & \cellcolor{green}6,54  \\ \hline
+        4,57 & 4,91 & 4,98 & \cellcolor{yellow} 5,02 & $\cdot$ & $\cdot$ & \cellcolor{green} 5,20 & $\cdot$ & $\cdot$ & \cellcolor{green} 5,47 & $\cdot$ & $\cdot$ & \cellcolor{green}5,56  \\ \hline
+        4,33 & 4,34 & 4,23 & \cellcolor{yellow} 4,15 & $\cdot$ & $\cdot$ & \cellcolor{green} 4,20 & $\cdot$ & $\cdot$ & \cellcolor{green} 4,51 & $\cdot$ & $\cdot$ & \cellcolor{green}4,48  \\ \hline
+        3,86 & 3,71 & 3,42 & \cellcolor{yellow} 3,23 & $\cdot$ & $\cdot$ & \cellcolor{green} 3,09 & $\cdot$ & $\cdot$ & \cellcolor{green} 3,38 & $\cdot$ & $\cdot$ & \cellcolor{green}3,33  \\ \hline
+        3,34 & 3,10 & 2,70 & \cellcolor{yellow} 2,42 & $\cdot$ & $\cdot$ & \cellcolor{green} 2,07 & $\cdot$ & $\cdot$ & \cellcolor{green} 2,38 & $\cdot$ & $\cdot$ & \cellcolor{green}2,17  \\ \hline
+        2,90 & 2,57 & 2,04 & \cellcolor{black} & \cellcolor{black} & \cellcolor{black}  &\cellcolor{black}  &\cellcolor{black}  & \cellcolor{black} & \cellcolor{black} & \cellcolor{black} &\cellcolor{black}  &  \cellcolor{black} \\ \hline
+        2,53 & 2,12 & 1,65 &\multicolumn{10}{c}{dolna okładka kondensatora} \\
+        2,15 & 1,89 & 1,46 &\multicolumn{10}{l}{} \\
+        2,00 & 1,71 & 1,38 &\multicolumn{10}{l}{} \\
+    \end{tabular}
+	\caption{Wyniki pomiarów dla punktów \colorbox{green}{wewnątrz} oraz \colorbox{yellow}{zewnątrz} kondensatora płaskiego}
+\end{table}
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+        \textbf{Lp.} & \textbf{$x$} & \textbf{$V_a$} & \textbf{$V_b$} & \textbf{$V_c$} & $V_{\textrm{\it{\footnotesize{dośw.}}}}$ \\
+		& [mm] & [V] & [V] & [V] & [V] \\ \hline
+        \textbf{1.} & 25 & 7,60 & 6,95 & 7,06 & 7,20  \\ \hline
+        \textbf{2.} & 33 & 6,16 & 5,36 & 6,25 & 5,92  \\ \hline
+        \textbf{3.} & 40 & 5,08 & 4,49 & 5,25 & 4,94  \\ \hline
+        \textbf{4.} & 47 & 4,33 & 3,71 & 4,60 & 4,21  \\ \hline
+        \textbf{5.} & 53 & 3,73 & 3,15 & 3,93 & 3,60  \\ \hline
+        \textbf{6.} & 59 & 3,05 & 2,62 & 3,34 & 3,00  \\ \hline
+        \textbf{7.} & 68 & 2,48 & 2,07 & 2,69 & 2,41  \\ \hline
+        \textbf{8.} & 74 & 2,04 & 1,63 & 2,08 & 1,92  \\ \hline
+        \textbf{9.} & 82 & 1,69 & 1,13 & 1,63 & 1,48  \\ \hline
+        \textbf{10.} & 88 & 1,37 & 0,74 & 1,05 & 1,05 \\ \hline
+    \end{tabular}
+	\caption{Wyniki pomiarów dla kondensatora cylindrycznego}
+\end{table}
+
+\newpage

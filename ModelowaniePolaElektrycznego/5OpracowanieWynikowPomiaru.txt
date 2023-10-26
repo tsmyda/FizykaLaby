@@ -1,0 +1,44 @@
+\subsection{Wnętrze kondensatora płaskiego}]
+Na początku obliczamy $V_{teor}$ dla każdego punktu $x$:
+$$U=10 \textrm{ V}$$
+$$d=70 \textrm{ mm}$$
+$$V_{1teor} = \frac{10}{70} \cdot 10 \left[ \frac{\textrm{V}}{\textrm{mm}} \cdot \textrm{mm} \right]= 1,429 \textrm{ V}$$
+
+Obliczamy również $E_{\textrm{\it{\footnotesize{dośw.}}}}$ dla $x^*$:
+$$E_{\textrm{\it{\footnotesize{dośw.}}}} = \frac{V_{n+1}-V_n}{x_{n+1}-x_n}$$
+$$x^*= \frac{x_{n+1}+x_n}{2}$$
+
+Dla $x_{1}^{*}$ obliczamy wartość $E_{\textrm{\it{\footnotesize{1dośw.}}}}$:
+$$x_{1}^{*} = \frac{20+10}{2} \left[ \textrm{mm} \right]= 15 \textrm{ mm}$$
+$$E_{\textrm{\it{\footnotesize{1dośw.}}}} = \frac{3,27 - 2,21}{20 - 10} \left[ \frac{\textrm{V}}{\textrm{mm}} \right]=  106 \left[ \frac{\textrm{V}}{\textrm{m}} \right]$$
+
+Analogicznie wyliczamy pozostałe wartości $x_i^*$ oraz $E_{\textrm{\it{\footnotesize{idośw.}}}}$ dla $i \in \{2...5\}$
+
+\subsection{Zewnętrze kondensatora płaskiego}
+Dla każdego punktu możemy obliczyć wartość składowych wektora $E$:
+$$E_x = \frac{V(x+h,y)-V(x,y)}{h}$$
+$$E_y = \frac{V(x,y+k)-V(x,y)}{k}$$
+Dla pierwszego punktu mamy:
+$$h=k=10 \textrm{ mm}$$
+$$V(0, 0) = 7,33 \textrm{ V}$$
+$$V(10, 0) = 7,59 \textrm{ V}$$
+$$V(0, 10) = 7,15 \textrm{ V}$$
+$$E_x = \frac{7,59 - 7,33}{10} \left[\frac{\textrm{V}}{\textrm{mm}}\right] = 26 \left[\frac{\textrm{V}}{\textrm{m}}\right]$$
+$$E_y = \frac{7,15-7,33}{10} \left[\frac{\textrm{V}}{\textrm{mm}}\right] = -18 \left[\frac{\textrm{V}}{\textrm{m}}\right]$$
+
+Analogicznie wyliczamy pozostałe wartości.
+
+\subsection{Wnętrze kondensatora cylindrycznego}
+Dla pierwszego puntku wewnątrz kondensatora:
+$$r_w = 20 \textrm{ mm}$$
+$$r_z = 95 \textrm{ mm}$$
+$$r = 25 \textrm{ mm}$$
+$$U = 10 \textrm{ V}$$
+$$V_{1teor} = \frac{10}{\ln\left({\frac{95}{20}}\right)} \cdot \ln\left({\frac{25}{90}}\right) \left[\textrm{ V}\right]= -8,22 \textrm{ V}$$
+
+Obliczamy również $x^*_1$ oraz $E_{\textrm{\it{\footnotesize{1dośw.}}}}$:
+$$x^*_1= \frac{25+33}{2} \left[\textrm{ mm}\right] = 29 \left[\textrm{ mm}\right]$$
+$$E_{\textrm{\it{\footnotesize{1dośw.}}}} = \frac{5,92 - 7,20}{33-25} \left[\frac{V}{\textrm{mm}}\right] = -160 \left[\frac{\textrm{V}}{\textrm{m}}\right]$$
+$$E_{\textrm{\it{\footnotesize{1teor.}}}} = -\frac{10}{25\ln{\left(\frac{95}{20}\right)}} \left[\frac{V}{\textrm{mm}}\right] \approx -256,72 \left[\frac{\textrm{V}}{\textrm{m}}\right]$$
+
+Analogicznie wyliczamy pozostałe wartości.
