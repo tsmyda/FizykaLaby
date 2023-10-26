@@ -8,6 +8,7 @@
 Imię i nazwisko:\\
 1. \textbf{\PierwszyAutor}\\
 2. \textbf{\DrugiAutor}\\
+%3. \textbf{\TrzeciAutor}\\
 \end{tabular}}&
 \begin{tabular}{@{}c@{}}Rok:\\\textbf{\Rok}\\\end{tabular}&
 \begin{tabular}{@{}c@{}}Grupa:\\\textbf{\Grupa}\\\end{tabular}&
