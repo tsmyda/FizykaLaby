@@ -1,0 +1,43 @@
+\subsection{Wykres prędkości od częstotliwości}
+\begin{center}
+\includegraphics[scale=0.5]{wykres.png}
+\captionof{figure}{Wykres przedstawiający wyliczoną prędkość fali dźwiękowej od jej częstotliwości}
+\end{center}
+
+Przedstawiony wykres zgodnie z przewidywaniami pokazuje, że częstotliwość dźwięku nie ma wpływu na jego prędkość.
+Czerwona linia wskazuje prędkość średnią.
+
+\subsection{Średnia wartość prędkości i niepewność standardowa}
+Obliczono średnią prędkość:
+$$\overline{v} = 345{,}04\ \frac{\textrm{m}}{\textrm{s}}$$
+Niepewność standardową typu A wyliczyliśmy jako:
+$$u(v) = 0{,}85\ \frac{\textrm{m}}{\textrm{s}}$$
+Niepewność rozszerzona przyjmuje wtedy wartość:
+$$U(v) = 2\cdot u(v) = 1{,}70\  \frac{\textrm{m}}{\textrm{s}}$$
+
+\subsection{Prędkość dźwięku}
+Korzystając ze wzoru na prędkość dźwięku w gazach przeliczamy wyliczoną prędkość na prędkość dla temperatury $T_0 = 0^{\circ}\ \textrm{C} = 273{,}15\ \textrm{K}$
+Podczas przeprowadzania ćwiczenia w pomieszczeniu panowała temperatura $T=21^{\circ}\ \textrm{C} = 294{,}15\ \textrm{K}$
+$$v_0 = \overline{v}\sqrt{\frac{T_0}{T}}$$
+$$v_0 = 332{,}49\ \left[ \frac{\textrm{m}}{\textrm{s}} \right]$$
+Korzystając z prawa przenoszenia niepewności:
+$$u(v_0) = u(v)\sqrt{\frac{T_0}{T}} = 0{,}82\ \left[ \frac{\textrm{m}}{\textrm{s}} \right]$$
+Przyjmując współczynnik $k=2$ liczymy niepewność rozszerzoną:
+$$U(v_0) = k\cdot u(v_0) = 2\cdot 0{,}82 = 1{,}64\ \left[ \frac{\textrm{m}}{\textrm{s}} \right]$$
+Wartość tablicowa dla prędkości dźwięku dla suchego powietrza w temperaturze $0^{\circ}\ \textrm{C}$ wynosi $331{,}5\ \left[ \frac{\textrm{m}}{\textrm{s}} \right]$
+$$\left| 331{,}5 - 332{,}49 \right| = 0{,}99 < 1{,}64 = U(v_0)$$
+Wartość tabelaryczna jest zgodna z otrzymanymi wynikami pomiarów, a obliczona niepewność jest mniejsza niż faktyczny błąd.
+
+\subsection{Wartość wykładnika adiabaty}
+Korzystając ze wzoru na prędkość dźwięku w gazach:
+$$v = \sqrt{\frac{\kappa R T}{\mu}}$$
+Gdzie $T$ - temperatura bezwzględna, $R$ - stała gazowa, $\mu$ - masa molowa gazu, a $\kappa$ - wykładnik adiabaty.
+
+Obliczamy masę molową dla powietrza - mieszaniny azotu (78\%), tlenu (21\%) oraz argonu (1\%) jako średnią ważoną mas molowych tych składników:
+$$\mu = 0{,}78 \cdot 28 + 0{,}21 \cdot 32 + 0{,}01 \cdot 40 = 28{,}96\ \frac{\textrm{g}}{\textrm{mol}}$$
+
+Przyjmujemy stałą $R = 8{,}31446\ \frac{\textrm{J}}{\textrm{mol}\cdot\textrm{kg}}$.
+
+Przekształcamy wzór, tak aby uzyskać wykładnik adiabaty.
+$$\kappa = \frac{\mu v^2}{RT} = 1{,}41$$
+$$u(\kappa) = \frac{2v\mu}{RT} u(v) = 0{,}07$$

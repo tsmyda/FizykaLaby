@@ -1,6 +1,7 @@
 \documentclass[a4paper,11pt]{article} 
 \usepackage{fancyhdr}
 \usepackage{polski}
+\usepackage{graphicx}
 \usepackage[left=2.5cm,top=2.5cm,right=2.5cm,bottom=4.5cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{amsfonts}
@@ -8,14 +9,15 @@
 \usepackage{enumerate}
 \usepackage{indentfirst}
 \usepackage{lipsum}
+\usepackage{multirow}
+\usepackage{multicol}
 \usepackage[export]{adjustbox}
 \usepackage[font=small,labelfont=bf]{caption} 
 \usepackage{booktabs}
 \usepackage{amsmath}
 
+
 \input{variables.txt}
-
-
 
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{1pt} 
@@ -41,6 +43,7 @@
 	\vspace{0.5cm}
 	\large{\PierwszyAutor} \\
 	\large{\DrugiAutor} \\
+	%\large{\TrzeciAutor}\\
 	\vspace{1cm}
 \end{center}
 

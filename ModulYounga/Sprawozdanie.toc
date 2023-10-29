@@ -4,5 +4,10 @@
 \contentsline {section}{\numberline {2}Układ pomiarowy}{3}{}%
 \contentsline {section}{\numberline {3}Przebieg doświadczenia}{3}{}%
 \contentsline {section}{\numberline {4}Wyniki pomiarów}{4}{}%
-\contentsline {section}{\numberline {5}Opracowanie wyników pomiarów}{4}{}%
-\contentsline {section}{\numberline {6}Wnioski}{4}{}%
+\contentsline {section}{\numberline {5}Opracowanie wyników pomiarów}{6}{}%
+\contentsline {subsection}{\numberline {5.1}Nachylenia prostych}{7}{}%
+\contentsline {subsection}{\numberline {5.2}Wyznaczenie modułu Younga}{8}{}%
+\contentsline {subsection}{\numberline {5.3}Wyznaczenie niepewności}{8}{}%
+\contentsline {subsection}{\numberline {5.4}Wyniki końcowe}{8}{}%
+\contentsline {subsection}{\numberline {5.5}Ocena zgodności z wartoścaimi tabelarycznymi}{8}{}%
+\contentsline {section}{\numberline {6}Wnioski}{9}{}%

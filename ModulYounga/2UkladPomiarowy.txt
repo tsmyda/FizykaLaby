@@ -1,7 +1,8 @@
-\begin{figure}
+\begin{figure}[ht]
 \centerline{\includegraphics{urzadzenie.png}}
 \caption{Urządzenie pomiarowe}
 \end{figure}
+
 
 W skład układu pomiarowego wchodzą następujące elementy:
 \begin{enumerate}

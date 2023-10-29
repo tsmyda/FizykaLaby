@@ -1,0 +1,36 @@
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Częstotliwość & \multicolumn{5}{|c|}{Położenie} & \multicolumn{4}{|c|}{Różnica położeń} & Długość & Prędkość \\
+fali & \multicolumn{5}{|c|}{kolejnych minimów} & \multicolumn{4}{|c|}{kolejnych minimów} & fali & dźwięku\\
+$[\textrm{Hz}]$ & \multicolumn{5}{|c|}{$[\textrm{mm}]$} & \multicolumn{4}{|c|}{$[\textrm{mm}]$} & $[\textrm{mm}]$ & $[\frac{\textrm{m}}{s}]$\\
+\hline
+$f$ & $a_1$ & $a_2$ & $a_3$ & $a_4$ & $a_5$ & $\Delta_1$ & $\Delta_2$ & $\Delta_3$ & $\Delta_4$ & $\lambda$ & $v$ \\ \hline
+2000 & 61 & 147 & 234 & 322 & 407 & 86 & 87 & 88 & 85 & 173 & 346 \\ \hline
+2200 & 42 & 120 & 202 & 275 & 358 & 78 & 82 & 73 & 83 & 158 & 347,6 \\ \hline
+2400 & 39 & 111 & 185 & 256 & 329 & 72 & 74 & 71 & 73 & 145 & 348 \\ \hline
+2600 & 36 & 103 & 170 & 236 & 302 & 67 & 67 & 66 & 66 & 133 & 345,8 \\ \hline
+2800 & 32 & 93 & 155 & 216 & 277 & 61 & 62	& 61 & 61 & 122,5 & 343 \\ \hline
+3000 & 29 & 86 & 142 & 200 & 258 & 57 & 56 & 58 & 58 & 114,5 & 343,5 \\ \hline
+3200 & 22 & 76 & 130 & 185 & 238 & 54 & 54 & 55 & 53 & 108 & 345,6 \\ \hline
+3400 & 23 & 70 & 120 & 173 & 222 & 47 & 50 & 53 & 49 & 99,5 & 338,3 \\ \hline
+3600 & 18 & 66 & 114 & 163 & 209 & 48 & 48 & 49 & 46 & 95,5 & 343,8 \\ \hline
+3800 & 17 & 64 & 109 & 154 & 199 & 47 & 45 & 45 & 45 & 91 & 345,8 \\ \hline
+4000 & 16 & 60 & 105 & 145 & 190 & 44 & 45 & 40 & 45 & 87 & 348 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Temperatura $[^{\circ}\textrm{C}]$ & 21 \\
+\hline
+\end{tabular}
+\captionof{table}{Wyniki pomiarów dla wskazanych częstotliwości}
+\end{center}
+\end{table}
