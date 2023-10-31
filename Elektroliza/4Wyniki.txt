@@ -1,0 +1,25 @@
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Czas elektrolizy & $t=$ \\ \hline
+Natężenie prądu & $I=$ \\ \hline
+Masa katody przed eletkrolizą & $m_1=$ \\ \hline
+Masa katody po elektrolizie & $m_2=$  \\ \hline
+Masa wydzielonej miedzi & $m=m_2-m_1=$ \\ \hline
+Masa anod przed elektrolizą & $M_1=$ \\ \hline
+Masa anod po elektrolizie & $M_2=$\\ \hline
+Zmiana masy anod & $M=M_1-M_2=$ \\ \hline
+\end{tabular}
+\captionof{table}{Dokonane przez nas pomiary}
+\vspace{1cm}
+\begin{tabular}{|c|c|}
+\hline
+Klasa amperomierza & \\ \hline
+Używany zakres amperomierza &  \\ \hline
+Niepoewność graniczna amperomierza &  \\ \hline
+Niepoewność standardowa amperomierza &   \\ \hline
+Niepewnośc graniczna wagi (znamionowa) &  \\ \hline
+Niepewnośc standardowa wagi &  \\ \hline
+\end{tabular}
+\captionof{table}{Dane określające niepewność przyrządów}
+\end{center}
