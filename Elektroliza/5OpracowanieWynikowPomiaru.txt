@@ -1,19 +1,62 @@
-\subsection{Wartość współczynnika eletkrochemicznego oraz stałej Faradaya }
-Wyznaczamy wartość współczynnika elektrochemicznego:
-$$m = kIt \Rightarrow k = \frac{m}{It}$$
-$$k = \frac{1}{1} \left[\frac{\textrm{g}}{\textrm{A} \cdot \textrm{s}}\right] = 1111 \left[ \frac{\textrm{mg}}{\textrm{C}} \right]$$
-Korzystając z powyższej wartości wyznaczamy wartość stałej Faradaya:
-$$\textrm{Dla \ce{CuSO_4}:}\ \mu = 55{,}55\ \textrm{g,}\ w=2$$
-$$k=\frac{\mu}{Fw} \Rightarrow F = \frac{\mu}{kw}$$
-$$F = \frac{1}{1} \left[ \frac{\textrm{g} \cdot \textrm{C}}{\textrm{mg}} \right] = 111{,}1111\ \textrm{C}$$
+\subsection{Błędy grube}
+Z prawa zachowania masy wynika, że $m$ powinno być równe $M$. W naszym ćwiczeniu te wartości się różnią, zatem przyjmiemy za ilość wydzielonej średnią arytmetyczną tych dwóch wartości.
+$$m_s = \frac{m+M}{2} = 0{,}281\ \textrm{g}$$
+
 
 \subsection{Rachunek niepewności}
 Niepewność graniczna wagi jest równa 1 mg, natomiast zwracając uwagę na lekkie zanieczyszczenia elektrolitu czy niedokładne wysuszenie elektrod nie możemy utożsamić tego jako niepewność pomiaru masy.
 Zatem niepewność pomiaru masy miedzi wydzielonej podczas elektrolizy przyjmujemy jako:
 $$u(m) = 15\ \textrm{mg}$$ 
-$$m = x\ \textrm{mg}$$ 
-$$\frac{u(m)}{m} = \frac{1}{1} = 100 \%$$
+$$\frac{u(m)}{m_s} = \frac{0{,}015\ \textrm{g}}{0{,}281\ \textrm{g}} = 5{,}34 \%$$
 Amperomierz jest źródłem niepewności typu B:
 $$\Delta I = \frac{0{,}5}{100} \cdot 0{,}75 \textrm{A} = 3{,}75\ \textrm{mA}$$
 $$u(I) = \frac{\Delta I}{\sqrt{3}} = 2{,}2\ \textrm{mA}$$
 $$\frac{u(I)}{I} = \frac{2{,}2}{500} = 0{,}44\%$$
+
+Stoper jest również źródłem niepewności typu B, dodatkowo wpływ na niepewność pomiaru czasu ma również czas pomiędzy umieszczeniem elektrod w elektrolicie, a ustaleniu właściwego natężenia prądu. Ponieważ wystąpiły u nas pewne problemy związane z podłączeniem elektrod do obwodu, przyjmiemy niepewność pomiaru czasu za 30 s.
+$$u(t) = 30\ \textrm{s}$$
+$$\frac{u(t)}{t} = \frac{30}{1800} = 1{,}67\% \textrm{s}$$
+
+
+
+\subsection{Wartość współczynnika eletkrochemicznego miedzi}
+Wyznaczamy wartość współczynnika elektrochemicznego:
+$$m = kIt \Rightarrow k = \frac{m}{It}$$
+$$k = \frac{0{,}281}{0{,}5 \cdot 1800} \left[\frac{\textrm{g}}{\textrm{A} \cdot \textrm{s}}\right] = 3{,}12 \cdot 10^{-7} \left[ \frac{\textrm{kg}}{\textrm{C}} \right]$$
+Zgodnie z prawem przenoszenia niepewności:
+$$u(k) = \sqrt{\left[ \frac{\partial k}{\partial m} \cdot u(m) \right]^2 + \left[ \frac{\partial k}{\partial I} \cdot u(I) \right]^2 + \left[ \frac{\partial k}{\partial t} \cdot u(t) \right]^2} = 1{,}75 \cdot 10^{-8}\ \frac{\textrm{kg}}{\textrm{C}}$$
+$$\frac{u(k)}{k} = \frac{1{,}75 \cdot 10^{-8}}{3{,}12 \cdot 10^{-7}} = 5{,}61\%$$
+
+\subsection{Wartość stałej Faradaya}
+Korzystając z powyższej wartości wyznaczamy wartość stałej Faradaya:
+$$\textrm{Dla \ce{CuSO_4}:}\ \mu = 63{,}58 \cdot 10^{-3}\ \frac{\textrm{kg}}{\textrm{mol}}\ w=2$$
+$$k=\frac{\mu}{Fw} \Rightarrow F = \frac{\mu}{kw}$$
+$$F = \frac{63{,}58 \cdot 10^{-3}}{3{,}12 \cdot 10^{-7} \cdot 2} = 101891\ \frac{\textrm{C}}{\textrm{mol}}$$
+Niepewność:
+$$u(F) = \left| \frac{\partial F}{\partial k} \cdot u(k) \right| = 5715\ \frac{\textrm{C}}{\textrm{mol}}$$
+$$\frac{u(F)}{F} = \frac{5715}{101891} = 5{,}60\%$$
+
+\newpage
+
+\subsection{Porównanie z wartościami tablicowymi}
+Korzystając z praw elektrolizy Faradaya wyliczamy ile masy powinno się wydzielić:
+$$m_0 = kIt = 0{,}3294\ \frac{\textrm{mg}}{\textrm{C}} \cdot 0{,}5\ \textrm{A} \cdot 1800\ \textrm{s} = 0{,}296\ \textrm{g}$$
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+ & Wartość & Wartość wyznaczona & Różnica & Niepewność & Niepewność \\
+ & tablicowa & doświadczalnie &  &  & względna \\ \hline
+$m$ [g] & 0{,}261 & 0{,}281 & 0{,}020 & 0{,}015 & 5{,}34\% \\ \hline
+$k$ [$\frac{\textrm{kg}}{\textrm{C}}$] & $3{,}294 \cdot 10^{-7}$ & $3{,}12 \cdot 10^{-7}$ & $1{,}74 \cdot 10^{-8}$ & $1{,}75 \cdot 10^{-8}$ & 5{,}61\% \\ \hline
+$F$ [$\frac{\textrm{C}}{\textrm{mol}}$] & $96500$ & $101891$ & $5391$ & $5715$ & 5{,}60\% \\ \hline
+\end{tabular}
+\captionof{table}{Podsumowanie wyników pomiaru}
+\end{center}
+\end{table}
+
+Wprowadzając niepewność rozszerzoną:
+$$\left| m-m_0 \right| = 0{,}020\ \textrm{g} \leq 0{,}045\ \textrm{g} = 3 \cdot u(m)$$
+$$\left| k-k_0 \right| = 1{,}74 \cdot 10^{-8}\ \frac{\textrm{kg}}{\textrm{C}} \leq 1{,}75 \cdot 10^{-8}\ \frac{\textrm{kg}}{\textrm{C}} = u(k)$$
+$$\left| F-F_0 \right| = 5391\ \frac{\textrm{C}}{\textrm{mol}} \leq 5715\ \frac{\textrm{C}}{\textrm{mol}} = u(F)$$
