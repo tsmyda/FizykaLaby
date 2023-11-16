@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Wstęp}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Cel ćwiczenia}{3}{}%
+\contentsline {section}{\numberline {2}Opis ćwiczenia}{3}{}%
+\contentsline {section}{\numberline {3}Układ pomiarowy}{3}{}%
+\contentsline {section}{\numberline {4}Przebieg doświadczenia}{4}{}%
+\contentsline {section}{\numberline {5}Wyniki pomiarów}{4}{}%
+\contentsline {section}{\numberline {6}Dalsze wyniki oraz ich opracowanie}{4}{}%
+\contentsline {subsection}{\numberline {6.1}Niepewności pomiarowe typu B}{4}{}%
+\contentsline {subsection}{\numberline {6.2}Badanie mosiężnego pręta}{5}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Wyznacznenie prędkości dźwięku w ośrodku}{5}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Wyznaczenie modułu Younga materiału}{5}{}%
+\contentsline {subsection}{\numberline {6.3}Badanie stalowego pręta}{5}{}%
+\contentsline {subsubsection}{\numberline {6.3.1}Wyznacznenie prędkości dźwięku w ośrodku}{6}{}%
+\contentsline {subsubsection}{\numberline {6.3.2}Wyznaczenie modułu Younga materiału}{6}{}%
+\contentsline {subsection}{\numberline {6.4}Badanie miedzianego pręta}{6}{}%
+\contentsline {subsubsection}{\numberline {6.4.1}Wyznacznenie prędkości dźwięku w ośrodku}{6}{}%
+\contentsline {subsubsection}{\numberline {6.4.2}Wyznaczenie modułu Younga materiału}{6}{}%
+\contentsline {subsection}{\numberline {6.5}Badanie aluminiowego pręta}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.1}Wyznacznenie prędkości dźwięku w ośrodku}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.2}Wyznaczenie modułu Younga materiału}{7}{}%
+\contentsline {section}{\numberline {7}Wnioski}{7}{}%

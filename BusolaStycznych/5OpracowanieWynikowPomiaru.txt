@@ -1,0 +1,27 @@
+\newpage
+\section{Opracowanie wyników pomiaru}
+
+\subsection{Obliczanie wartości indukcji magnetycznej}
+Pomiar indukcji pola Ziemii jest pomiarem pośrednim, który jest określony równaniem:
+$$B_0 = \mu_0 \frac{N \cdot I}{2R \cdot \tg \alpha}$$
+Jako wartość składowej poziomu indukcji ziemskiego pola magnetycznego przyjęliśmy średnią arytmetyczną z wielkości $B_0$
+$$B_0 = \overline{B} = 21{,}73\ \mu \textrm{T}$$
+
+\subsection{Niepewności pomiarowe}
+Niepewność $u(B_0)$ najpierw traktujemy jako niepewność typu A:
+$$u_{A}(B_0) = \sqrt{\frac{\sum _{i=1} ^{24} \left( B_i - \overline{B} \right)^2}{24 \cdot 23}}$$
+$$u_A(B_0) = 0{,}34\ \mu \textrm{T}$$
+
+Niepewność amperomierza brana jest jako niepewność typu B:
+$$\Delta I = \frac{750\ \textrm{mA} \cdot 0{,}5}{100} = 3,75\ \textrm{mA}$$
+$$u_B(I) = \frac{\Delta I}{\sqrt{3}} = 2{,}17\ \textrm{mA}$$
+
+Niepewność pomiaru średnicy cewki też jest niepewnością typu B:
+$$U(d) = 3\ \textrm{mm} \Rightarrow u(r) = 1{,}5\ \textrm{mm}$$
+
+Korzystając z powyższych niepewności pomiarowych możemy wyliczyć niepewność złożoną:
+$$u(B_0) = B_0 \sqrt{ \left[ \frac{u_A(B_0)}{B_0} \right]^2 + \left[ \frac{u_B(I)}{I} \right]^2 + \left[ \frac{u(r)}{r} \right]^2}$$
+$$u(B_0) = 0,43\ \mu \textrm{T}$$
+
+\subsection{Porównanie z wartościami tabelarycznymi}
+Wartość tablicowa dla Krakowa to $B_T = 21\ \mu\textrm{T}$. Otrzymana przez nas wartość średnia to: $B_0 = 21{,}73\ \mu\textrm{T}$. Otrzymana wartość mieści się w zakresie niepewności pomiarowej rozszerzonej ze współczynnikiem $k_p = 2$ w porównaniu z wartością tablicową.

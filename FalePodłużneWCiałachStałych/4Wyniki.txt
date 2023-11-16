@@ -1,0 +1,15 @@
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{Materiał} & \textbf{Średnica} & \textbf{Długość} & \textbf{Objętość} & \textbf{Masa} & \textbf{Gęstość} & \textbf{Wartość tablicowa gęstości} \\
+\textbf{próbki} & $[\textrm{cm}]$ & $[\textrm{cm}]$ & $[\textrm{cm}^3]$ & $[\textrm{g}]$ & $\left[\frac{\textrm{g}}{\textrm{cm}^3}\right]$ & $\left[\frac{\textrm{g}}{\textrm{cm}^3}\right]$  \\ \hline
+Mosiądz &1,2&12&13,57&114&8,4&8,73 \\ \hline
+Stal &1,2&12&13,57&106&7,81&7,9 \\ \hline
+Miedź &1,2&12&13,57&120&8,84&8,96 \\ \hline
+Aluminum &1,6&12&24,13&69&2,86&2,7 \\ \hline
+\end{tabular}
+\captionof{table}{Wyniki pomiaru gęstości materiałów}
+\end{center}
+\end{table}
+
