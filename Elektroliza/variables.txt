@@ -5,7 +5,7 @@
 \def\Rok{II} %rok studiów
 \def\Grupa{5} %numer grupy zajęciowej
 \def\NrZespolu{3} %numer zespołu
-\def\Temat{Temat} %temat ćwiczenia
-\def\NrCwiczenia{11} %numer ćwiczenia
-\def\DataOddania{13.10.2023} %data oddania
-\def\DataWykonania{10.10.2023} %data wykonania
+\def\Temat{Elektroliza} %temat ćwiczenia
+\def\NrCwiczenia{35} %numer ćwiczenia
+\def\DataOddania{02.11.2023} %data oddania
+\def\DataWykonania{31.10.2023} %data wykonania

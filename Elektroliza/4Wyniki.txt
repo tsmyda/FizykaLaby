@@ -1,25 +1,22 @@
 \begin{center}
 \begin{tabular}{|c|c|}
 \hline
-Czas elektrolizy & $t=$ \\ \hline
-Natężenie prądu & $I=$ \\ \hline
-Masa katody przed eletkrolizą & $m_1=$ \\ \hline
-Masa katody po elektrolizie & $m_2=$  \\ \hline
-Masa wydzielonej miedzi & $m=m_2-m_1=$ \\ \hline
-Masa anod przed elektrolizą & $M_1=$ \\ \hline
-Masa anod po elektrolizie & $M_2=$\\ \hline
-Zmiana masy anod & $M=M_1-M_2=$ \\ \hline
+Czas elektrolizy & $t=30$ min \\ \hline
+Natężenie prądu & $I=0{,}5$ A \\ \hline
+Masa katody przed eletkrolizą & $m_1= 85{,}103$ g \\ \hline
+Masa katody po elektrolizie & $m_2=85{,}402$ g \\ \hline
+Masa wydzielonej miedzi & $m=m_2-m_1=0{,}299$ g \\ \hline
+Masa anod przed elektrolizą & $M_1= 204{,}150$ g\\ \hline
+Masa anod po elektrolizie & $M_2=203{,}887$ g \\ \hline
+Zmiana masy anod & $M=M_1-M_2=0{,}263$ g \\ \hline
 \end{tabular}
 \captionof{table}{Dokonane przez nas pomiary}
 \vspace{1cm}
 \begin{tabular}{|c|c|}
 \hline
-Klasa amperomierza & \\ \hline
-Używany zakres amperomierza &  \\ \hline
-Niepoewność graniczna amperomierza &  \\ \hline
-Niepoewność standardowa amperomierza &   \\ \hline
-Niepewnośc graniczna wagi (znamionowa) &  \\ \hline
-Niepewnośc standardowa wagi &  \\ \hline
+Klasa amperomierza & 0{,}5 \\ \hline
+Używany zakres amperomierza &  0{,}75 A\\ \hline
+Niepewnośc graniczna wagi (znamionowa) &  0{,}001 g\\ \hline
 \end{tabular}
 \captionof{table}{Dane określające niepewność przyrządów}
 \end{center}

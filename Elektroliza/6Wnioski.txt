@@ -1,0 +1,1 @@
+Wartości wyznaczone doświadczalnie mieściły się w niepewnościach rozszerzonych. Głównym źródłem niepewności była masa, gdyż mieściła się w zakresie niepewności rozszerzonej ze współczynnikiem równym 3, a pozostałe wartości ze współczynnikiem równym 1. Niepewnośc ta wynikała najprawdopodobniej z niedokładnego osuszenia blaszek oraz ruchów powietrza nad wagą.
