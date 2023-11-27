@@ -1,13 +1,12 @@
-\input{variables.txt}
+\input{dane.txt}
 
-%Tabelke umiescic w osobnym pliku
-%\input{Tabelka.txt}
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c|}\hline
 \textbf{Wydział \Wydzial}&\multicolumn{2}{l|}{\begin{tabular}{@{}l@{}}
 Imię i nazwisko:\\
 1. \textbf{\PierwszyAutor}\\
 2. \textbf{\DrugiAutor}\\
+%3. \textbf{\TrzeciAutor}\\
 \end{tabular}}&
 \begin{tabular}{@{}c@{}}Rok:\\\textbf{\Rok}\\\end{tabular}&
 \begin{tabular}{@{}c@{}}Grupa:\\\textbf{\Grupa}\\\end{tabular}&
@@ -33,4 +32,3 @@ OCENA:\\
 \hline
 \end{tabular}
 \end{center}
-%Koniec tabelki

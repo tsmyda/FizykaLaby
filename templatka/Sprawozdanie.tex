@@ -3,21 +3,21 @@
 \usepackage{polski}
 \usepackage{graphicx}
 \usepackage[left=2.5cm,top=2.5cm,right=2.5cm,bottom=4.5cm]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage{amsfonts}
 \usepackage[utf8]{inputenc}
-\usepackage{enumerate}
-\usepackage{indentfirst}
 \usepackage{lipsum}
-\usepackage{multirow}
-\usepackage{multicol}
-\usepackage[export]{adjustbox}
-\usepackage[font=small,labelfont=bf]{caption} 
-\usepackage{booktabs}
-\usepackage{amsmath}
 
 
-\input{variables.txt}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+
+\input{dane.txt}
 
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{1pt} 
@@ -31,10 +31,8 @@
 
 
 \begin{document}
-%\maketitle
 
-%Tabelke umiescic w osobnym pliku
-\input{table.txt}
+\input{tabela.txt}
 \vspace{1cm}
 \begin{center}
 	\Huge{\textbf{\Temat}} \\
@@ -50,28 +48,14 @@
 \tableofcontents
 
 \newpage 
+
 \section{Wstęp}
+\lipsum[1]
 
-\input{1wstep.txt}
+\section{Rozwinięcie}
+\lipsum[2-5]
 
-\section{Układ pomiarowy}
-
-\input{2UkladPomiarowy.txt}
-
-\section{Przebieg doświadczenia}
-
-\input{3Przebieg.txt}
-
-\section{Wyniki pomiarów}
-
-\input{4Wyniki.txt}
-
-\section{Opracowanie wyników pomiarów}
-
-\input{5OpracowanieWynikowPomiaru.txt}
-
-\section{Wnioski}
-
-\input{6Wnioski.txt}
+\section{Zakończenie}
+\lipsum[6]
 
 \end{document}

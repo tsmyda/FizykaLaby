@@ -1,1 +1,0 @@
-Wszystkie wyliczone wartości są zgodne z wartościami tablicowymi, więc można uznać, że całość doświadczenia została przeprowadzona z powodzeniem. Na podstawie tabel 2-5 widać również, że prędkość fali w materiałach nie zależy od częstotliwości.

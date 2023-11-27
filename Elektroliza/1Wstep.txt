@@ -1,2 +1,0 @@
-\subsection{Cel ćwiczenia}
-Celem ćwiczenia jest wyznaczenie stałej Faradaya oraz równoważnika elektrochemicznego miedzi wykorzystując do tego doświadczenie z elektrolizą wodnego roztworu \ce{CuSO4}.

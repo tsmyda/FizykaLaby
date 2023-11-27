@@ -1,9 +1,0 @@
-\begin{enumerate}
-\item Uklad podłączono zgodnie ze schematem
-\item Za pomocą sondy zbadano napięcie w wyznaczonych punktach oraz na zewnątrz kondensatora
-\item Następnie zamieniono płytę na model kondensatora cylindrycznego
-\item Pomiary powtórzono
-\item Pomiary zostały zapisane
-\end{enumerate}
-
-\newpage

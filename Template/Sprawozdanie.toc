@@ -1,6 +1,0 @@
-\contentsline {section}{\numberline {1}Wstęp}{2}{}%
-\contentsline {section}{\numberline {2}Układ pomiarowy}{2}{}%
-\contentsline {section}{\numberline {3}Przebieg doświadczenia}{2}{}%
-\contentsline {section}{\numberline {4}Wyniki pomiarów}{2}{}%
-\contentsline {section}{\numberline {5}Opracowanie wyników pomiarów}{2}{}%
-\contentsline {section}{\numberline {6}Wnioski}{2}{}%
